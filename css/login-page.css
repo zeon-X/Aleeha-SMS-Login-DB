@@ -1,0 +1,21 @@
+@media screen and (max-width : 686px) {
+    #login-page-wc-img{
+        display: none;
+    }
+    .padding-sm-none{
+        padding: 0;
+    }
+}
+
+/* body{
+    padding: 0px 25px;
+} */
+
+#sign-in-pg-img{
+    background-image: url('../assets/study2.jpg');
+}
+
+span{
+    color: green;
+    font-weight: 600;
+}

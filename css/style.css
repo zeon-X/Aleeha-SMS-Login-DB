@@ -1,0 +1,178 @@
+
+
+
+
+
+/* LAYOUT  */
+body{
+    /* background-color: #1C1C1C; */
+    font-family: 'Poppins','Smooch Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------------- GLOBAL DEC  */
+
+.dvf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dhf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width : 686px) {
+    .dvf-sm-active{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .dhf-sm-active{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.fas{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+.sectionwidth{
+    width : 75%
+}
+
+@media screen and (max-width : 686px) {
+    .sectionwidth{
+        width : 95%
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*............................ ZOOM EFFECT  */
+.zoom{
+    transition: transform .3s;
+}
+.zoom:hover {
+    
+    background-color: white;
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1); 
+}
+
+
+
+
+
+
+
+
+
+/*---------------------------------------  ALL BTNS  */
+
+.btn{
+    border-radius: 10px;
+    background-color: green;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    font-weight: 600;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(3, 77, 3);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------- NAVBAR */
+header{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav{
+    width: 75%;
+}
+.nav-link{
+    font-size: 16px;
+    margin: 0 5px; 
+    
+    color: white !important;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color:#d903ee!important;
+}
+
+
+
+#hire-me-btn img{
+    width: 5%;
+}
+
+
+
+@media screen and (max-width : 686px) {
+    nav{
+        width: 90%;
+    }
+    #conatct-us-btn-img{
+        width: 10%;
+    }
+}
+.logo-img{
+    width: 5%;
+    
+}
+.nav-text-size{
+    font-size: 16px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
